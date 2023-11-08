@@ -1,0 +1,243 @@
+{
+    "users": [
+      {
+        "username": "cust",
+        "password": "cust",
+        "usertype": "customer"
+      },
+      {
+        "username": "sman",
+        "password": "sman",
+        "usertype": "salesman"
+      },
+      {
+        "username": "store",
+        "password": "store",
+        "usertype": "storemanager"
+      }
+    ],
+    "products": 
+    [
+      {
+        "doorbells": 
+        [
+          {
+            "name": "SimpliSafe",
+            "price": 199.99,
+            "image":"../images/DoorBells/B1.jpg",
+            "manufacturer": "SimpliSafe",
+            "condition": "New",
+            "discount": 0
+          },
+          {
+            "name": "Ring Video Bell",
+            "price": 229.99,
+            "image": "../images/DoorBells/B2.jpg",
+            "manufacturer": "Ring",
+            "condition": "New",
+            "discount": 5
+          },
+          {
+            "name": "Ring Peephole Cam Video",
+            "price": 239.99,
+            "image": "../images/DoorBells/B3.jpg",
+            "manufacturer": "RingPeephole",
+            "condition": "New",
+            "discount": 10
+          },
+          {
+            "name": "Mountable Solar Kit Ring Video",
+            "price": 169.99,
+            "image": "../images/DoorBells/B4.jpg",
+            "manufacturer": "Mountable",
+            "condition": "New",
+            "discount": 10
+          },
+          {
+            "name": "Google Nest Door Bell",
+            "price": 59.99,
+            "image": "../images/DoorBells/B5.jpg",
+            "manufacturer": "Google",
+            "condition": "New",
+            "discount": 15
+          }
+        ],
+
+        "doorlocks": 
+        [
+          {
+            "name": "eufy Smart Lock C210",
+            "price": 399,
+            "image":  "../images/DoorLocks/L1.jpg",
+            "manufacturer": "eufy",
+            "condition": "New",
+            "discount": 19
+          },
+          {
+            "name": "Kwikset 99420-001",
+            "price": 139.95,
+            "image": "../images/DoorLocks/L2.jpg",
+            "manufacturer": "Kwikset",
+            "condition": "New",
+            "discount": 0
+          },
+          {
+            "name": "LOCKSTAR Smart Door",
+            "price": 186.99,
+            "image": "../images/DoorLocks/L3.jpg",
+            "manufacturer": "Lockstar",
+            "condition": "Old",
+            "discount": 25
+          },
+          {
+            "name": "LG",
+            "price": 750.99,
+            "image": "../images/DoorLocks/L4.jpg",
+            "manufacturer": "Schlage",
+            "condition": "Used",
+            "discount": 35
+          },
+          {
+            "name": "ULTRALOQ U-Bolt",
+            "price": 179,
+            "image": "../images/DoorLocks/L5.jpg",
+            "manufacturer": "ULTRALOQ",
+            "condition": "New",
+            "discount": 5
+          }
+        ],
+
+        "lights": 
+        [
+          {
+            "name": "Govee Wifi LED",
+            "price": 299.99,
+            "image": "../images/Lights/iL1.jpg",
+            "manufacturer": "GoveeLED",
+            "condition": "New",
+            "discount": 15
+          },
+          {
+            "name": "Govee Outdoor",
+            "price": 83.99,
+            "image": "../images/Lights/iL2.jpg",
+            "manufacturer": "GoveeOutdoor",
+            "condition": "New",
+            "discount": 15
+          },
+          {
+            "name": "LIFX Light Strips",
+            "price": 179.99,
+            "image": "../images/Lights/iL3.jpg",
+            "manufacturer": "LIFX",
+            "condition": "New",
+            "discount": 15
+          },
+          {
+            "name": "NanoLeaf",
+            "price": 102.99,
+            "image": "../images/Lights/iL4.jpg",
+            "manufacturer": "Nanoloeaf",
+            "condition": "New",
+            "discount": 15
+          },
+          {
+            "name": "Philips",
+            "price": 199.99,
+            "image": "../images/Lights/iL5.jpg",
+            "manufacturer": "Philips",
+            "condition": "New",
+            "discount": 15
+          }
+        ],
+
+        "speakers": 
+        [
+          {
+            "name": "Apple HomePod",
+            "price": 299.99,
+            "image": "../images/Speakers/S1.jpg",
+            "manufacturer": "AppleHomePod",
+            "condition": "New",
+            "discount": 5
+          },
+          {
+            "name": "Echo Dot",
+            "price": 49.99,
+            "image": "../images/Speakers/S2.jpg",
+            "manufacturer": "EchoDot",
+            "condition": "New",
+            "discount": 5
+          },
+          {
+            "name": "Google Nest Audi",
+            "price": 99.99,
+            "image": "../images/Speakers/S3.jpg",
+            "manufacturer": "GoogleNest",
+            "condition": "New",
+            "discount": 15
+          },
+          {
+            "name": "Sonos",
+            "price": 359.1,
+            "image": "../images/Speakers/S4.jpg",
+            "manufacturer": "sonos",
+            "condition": "New",
+            "discount": 15
+          },
+          {
+            "name": "Yamaha ATS",
+            "price": 36.99,
+            "image": "../images/Speakers/S5.jpg",
+            "manufacturer": "Yamaha",
+            "condition": "New",
+            "discount": 15
+          }
+        ],
+
+        "thermostats": 
+        [
+          {
+            "name": "Amazon",
+            "price": 79.99,
+            "image": "../images/Thermostats/T1.jpg",
+            "manufacturer": "Amazon",
+            "condition": "New",
+            "discount": 15
+          },
+          {
+            "name": "Emerson",
+            "price": 129.99,
+            "image": "../images/Thermostats/T2.jpg",
+            "manufacturer": "Emerson",
+            "condition": "New",
+            "discount": 15
+          },
+          {
+            "name": "",
+            "price": 179.99,
+            "image": "../images/Thermostats/T3.jpg",
+            "manufacturer": "Honeywell",
+            "condition": "New",
+            "discount": 15
+          },
+          {
+            "name": "Google Nest T",
+            "price": 119.99,
+            "image": "../images/Thermostats/T4.jpg",
+            "manufacturer": "Google Store",
+            "condition": "New",
+            "discount": 15
+          },
+          {
+            "name": "Mysa",
+            "price": 149.99,
+            "image": "../images/Thermostats/T5.jpg",
+            "manufacturer": "Maysa Store",
+            "condition": "New",
+            "discount": 15
+          }
+        ]
+      }
+    ]
+  }

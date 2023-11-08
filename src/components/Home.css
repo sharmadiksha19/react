@@ -1,0 +1,31 @@
+/* Styling for the slider */
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: auto; /* Automatically maintain the aspect ratio */
+    max-height: 50%; /* Set a maximum height relative to the width */
+  }
+  
+  
+  /* Styling for the welcome note */
+  .welcome-note {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .welcome-note h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .welcome-note p {
+    font-size: 16px;
+    text-align: center;
+  }
+  

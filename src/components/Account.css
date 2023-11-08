@@ -1,0 +1,52 @@
+.account-page {
+    display: flex;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .sidebar {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .account-info {
+    flex: 2;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .account-info h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .account-info p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .account-info span {
+    font-weight: bold;
+    color: #039289; /* Use the teal color you mentioned earlier */
+  }
+  
