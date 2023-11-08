@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./Bestseller.css";
 
 const db = require("./db.json");
-const productsData = db.products[0]; // Assuming products are stored in the first element of the array
+const productsData = db.products[0];
 
 function Bestseller() {
   const [selectedCategory, setSelectedCategory] = useState("doorbells");
@@ -36,7 +36,6 @@ function Bestseller() {
         product.price - (product.price * product.discount) / 100;
 
       const addToCart = () => {
-        // Create a new cart array with the added product
         const updatedCart = [...cart, product];
         setCart(updatedCart);
         console.log(`Added "${product.name}" to the cart.`);
@@ -57,7 +56,6 @@ function Bestseller() {
   };
 
   const handleCheckout = () => {
-    // Redirect to the checkout page when the checkout button is clicked
     navigate("/checkout");
   };
 

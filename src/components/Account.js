@@ -9,7 +9,6 @@ const Account = () => {
         <ul>
           <li>Cart</li>
           <li>Orders</li>
-          {/* Add more navigation links as needed */}
         </ul>
       </div>
       <div className="account-info">

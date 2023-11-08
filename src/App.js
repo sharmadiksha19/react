@@ -27,10 +27,10 @@ export default function App() {
   //FETCH
   async function fetchProducts() {
     try {
-      const response = await fetch("./db.json"); // Assuming the file is in the public directory
+      const response = await fetch("./db.json");
       const data = await response.json();
       const products = data.products;
-      setState((prevState) => ({ ...prevState, products })); // Use the updater function
+      setState((prevState) => ({ ...prevState, products }));
     } catch (error) {
       console.error("Error fetching product data: ", error);
     }

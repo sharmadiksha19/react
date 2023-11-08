@@ -9,8 +9,8 @@ function Checkout() {
     state: "",
     zipCode: "",
     creditCard: "",
-    deliveryMethod: "homeDelivery", // Default to home delivery
-    storeLocation: "", // Only used for in-store pickup
+    deliveryMethod: "homeDelivery",
+    storeLocation: "",
   });
 
   const [confirmationNumber, setConfirmationNumber] = useState(null);
@@ -39,7 +39,6 @@ function Checkout() {
     const confirmationNumber = generateConfirmationNumber();
     const pickupDate = generatePickupDate();
 
-    // Check if the order is cancellable
     const today = new Date();
     const fiveBusinessDaysBeforePickup = new Date(pickupDate);
     fiveBusinessDaysBeforePickup.setDate(
@@ -52,14 +51,12 @@ function Checkout() {
   };
 
   const handleCancelOrder = () => {
-    // Implement order cancellation logic here
-    // Notify the customer that the order has been canceled
     alert("Order has been canceled.");
   };
 
   const generateConfirmationNumber = () => {
     const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-    const length = 8; // You can adjust the length as needed
+    const length = 8;
 
     let confirmationNumber = "";
     for (let i = 0; i < length; i++) {
@@ -71,8 +68,6 @@ function Checkout() {
   };
 
   const generatePickupDate = () => {
-    // Calculate the delivery/pickup date logic here
-    // Two weeks after the order date
     const orderDate = new Date();
     orderDate.setDate(orderDate.getDate() + 14);
     return orderDate;
