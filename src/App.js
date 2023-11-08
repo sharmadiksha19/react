@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Routes, Route, Link, useNavigate } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import Login from "./components/Login";
 import Context from "./Context";
 import Register from "./components/Register";
@@ -10,6 +10,7 @@ import Account from "./components/Account";
 import Storemanager from "./components/Storemanager";
 import Customer from "./components/Customer";
 import Salesman from "./components/Salesman";
+import Checkout from "./components/Checkout";
 
 export default function App() {
   const [state, setState] = useState({
@@ -18,7 +19,6 @@ export default function App() {
     products: [],
     showMenu: false,
   });
-  const navigate = useNavigate();
 
   useEffect(() => {
     fetchProducts();
@@ -96,6 +96,7 @@ export default function App() {
           <Route path="/customer" element={<Customer />} />
           <Route path="/salesman" element={<Salesman />} />
           <Route path="/storemanager" element={<Storemanager />} />
+          <Route path="/checkout" element={<Checkout />} />
         </Routes>
       </div>
       <footer className="footer">
