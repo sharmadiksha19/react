@@ -27,22 +27,16 @@ const Storemanager = () => {
 
   // Function to add a new product
   const addProduct = () => {
-    // Implement product addition logic here
-    // Update the products state with the new product
     setProducts([...products, newProduct]);
   };
 
   // Function to delete a product
   const deleteProduct = (product) => {
-    // Implement product deletion logic here
-    // Update the products state without the deleted product
     setProducts(products.filter((p) => p !== product));
   };
 
   // Function to update a product
   const updateProduct = (product) => {
-    // Implement product update logic here
-    // Update the products state with the updated product
     setProducts(products.map((p) => (p === product ? newProduct : p)));
   };
 

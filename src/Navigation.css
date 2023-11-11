@@ -1,0 +1,16 @@
+/* Additional styles for the dropdown menu */
+.navbar-dropdown {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 0;
+  }
+  
+  .navbar-dropdown a {
+    color: #333;
+  }
+  
+  .navbar-dropdown a:hover {
+    background-color: #f5f5f5;
+  }
+  

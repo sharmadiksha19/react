@@ -1,0 +1,47 @@
+/* OrderHistory.css */
+
+/* Apply general styles to the OrderHistory component */
+div {
+    margin: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  /* Style the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Style table headers */
+  th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style table cells */
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Apply styles to odd rows for better readability */
+  tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Hover effect on table rows */
+  tr:hover {
+    background-color: #e0e0e0;
+  }
+  

@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./Bestseller.css";
+import "./Product.css";
+import Navigation from "../Navigation";
+import Footer from "./Footer";
 
 const db = require("./db.json");
 const productsData = db.products[0];
 
-function Bestseller() {
+function Products() {
   const [selectedCategory, setSelectedCategory] = useState("doorbells");
   const [cart, setCart] = useState([]);
   const navigate = useNavigate();
@@ -61,6 +63,7 @@ function Bestseller() {
 
   return (
     <div className="bs">
+      <Navigation />
       <h1> Products on Smart Homes</h1>
       <div className="category-buttons">
         <button onClick={() => changeCategory("doorbells")}>Doorbells</button>
@@ -73,6 +76,7 @@ function Bestseller() {
       </div>
       <div className="product-container">{displayProducts()}</div>
       <div className="cart-container">
+        <hr className="separator" />
         <h2>Shopping Cart</h2>
         {cart.length > 0 ? (
           <div>
@@ -99,4 +103,4 @@ function Bestseller() {
   );
 }
 
-export default Bestseller;
+export default Products;

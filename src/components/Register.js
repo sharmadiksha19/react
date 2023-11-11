@@ -19,7 +19,12 @@ export default function Register() {
       alert("Password and confirm password do not match.");
       return;
     }
-    navigate("/");
+
+    // Simulate a successful registration by showing an alert
+    alert("Registration successful! You can now login.");
+
+    // Redirect to the login page
+    navigate("/login");
   };
 
   return (

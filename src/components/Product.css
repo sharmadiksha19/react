@@ -54,5 +54,9 @@
   button:hover {
     background-color: #005bb7;
   }
+  .separator {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
   
   
