@@ -43,6 +43,15 @@ function Products() {
         console.log(`Added "${product.name}" to the cart.`);
       };
 
+      const removeFromCart = (productToRemove) => {
+        const updatedCart = cart.filter(
+          (product) => product !== productToRemove
+        );
+        setCart(updatedCart);
+        console.log(`Removed "${productToRemove.name}" from the cart.`);
+        alert(`Removed "${productToRemove.name}" from the cart.`);
+      };
+
       return (
         <div key={index} className="product-card">
           <img src={`${product.image}`} alt={product.name} />
@@ -52,6 +61,12 @@ function Products() {
           <p>Manufacturer: {product.manufacturer}</p>
           <p>Condition: {product.condition}</p>
           <button onClick={addToCart}>Add to Cart</button>
+          <button
+            className="remove-button"
+            onClick={() => removeFromCart(product)}
+          >
+            Remove from Cart
+          </button>
         </div>
       );
     });
@@ -99,6 +114,7 @@ function Products() {
           <p>Your cart is empty.</p>
         )}
       </div>
+      <Footer />
     </div>
   );
 }

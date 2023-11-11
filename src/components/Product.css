@@ -1,7 +1,7 @@
 .bs {
     text-align: center;
     font-family: Arial, sans-serif;
-    padding: 20px;
+    padding: 5px;
   }
   
   h1 {
@@ -22,7 +22,7 @@
   .product-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 10px;
     padding: 10px;
     justify-content: center;
   }
@@ -41,7 +41,8 @@
     height: 200px;
     margin-bottom: 10px;
   }
-  
+
+   
   button {
     background-color: #02afa4;
     color: #fff;
@@ -53,6 +54,12 @@
   
   button:hover {
     background-color: #005bb7;
+  }
+
+  
+  /* Add space between Cancel and Reorder buttons */
+  button + button {
+    margin-left: 15px; /* Adjust the margin to add space */
   }
   .separator {
     border: 1px solid #ccc;

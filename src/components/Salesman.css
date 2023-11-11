@@ -1,0 +1,67 @@
+/* Salesman.css */
+
+.salesman {
+    margin: 20px;
+  }
+  
+  h2 {
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+    color: #666;
+  }
+  
+  input {
+    margin: 5px;
+    padding: 8px;
+  }
+  
+  select {
+    margin: 5px;
+    padding: 8px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  li button {
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+  }
+  
+  li button:hover {
+    background-color: #d32f2f;
+  }
+  

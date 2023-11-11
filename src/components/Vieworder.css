@@ -42,6 +42,16 @@
     background-color: #c82333;
   }
   
+  
+  /* Add space between the Cancel Order button and Go back to Checkout link */
+  button {
+    margin-bottom: 10px;
+  }
+
+  Link {
+    margin-left: 15px; /* Adjust the margin as needed */
+  }
+  
   Link {
     color: #007bff;
     text-decoration: none;

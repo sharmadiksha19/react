@@ -23,6 +23,7 @@ export default function App() {
     showMenu: false,
   });
 
+  const [products, setProducts] = useState([]);
   //const navigate = useNavigate();
 
   useEffect(() => {
@@ -61,7 +62,12 @@ export default function App() {
 
           <Route path="/account" element={<Account />} />
           <Route path="/salesman" element={<Salesman />} />
-          <Route path="/storemanager" element={<Storemanager />} />
+          <Route
+            path="/storemanager"
+            element={
+              <Storemanager products={products} setProducts={setProducts} />
+            }
+          />
         </Routes>
       </div>
       <Footer />
